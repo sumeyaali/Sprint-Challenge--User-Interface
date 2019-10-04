@@ -69,7 +69,56 @@ p {
 .container {
     width: 800px;
     margin: 0 auto;
+
 }
+/* Top portion starts here  */
+nav a{
+    margin-right: 55px;
+    margin-bottom: 100px;
+    text-align: left;
+    text-decoration: none; 
+    color:black;
+    
+    
+
+}
+nav {
+    padding-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+   
+
+}
+
+.top div {
+    /* margin-bottom: 40px; */
+}
+
+
+
+/* Header styling above */
+
+
+
+.top .logo {
+
+    margin-right: 100px;
+
+}
+
+.top-pic {
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+.first-pic {
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+
+/* TOP PORTION ENDS HERE */
 
 .top-content {
     display: flex;
@@ -77,12 +126,14 @@ p {
     justify-content: space-evenly;
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
+    
 }
 
 .top-content .text-container {
     width: 48%;
     padding: 0 1%;
     padding-bottom: 20px;  
+    
 }
 
 .middle-content {
@@ -99,18 +150,68 @@ p {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
+    margin-bottom: 5px;
 }
 
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
     margin: 20px 2.5%;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
+
 }
+
+ .box1 {
+    background: teal;
+}
+.box2 {
+    background: gold;
+}
+
+.box3 {
+    background:cadetblue;
+}
+.box4 {
+    background: coral;
+}
+.box5 {
+    background: crimson;
+}
+
+.box6 {
+    background: forestgreen;
+}
+
+.box7 {
+    background: darkorchid;
+}
+
+.box8 {
+    background: hotpink;
+}
+
+.box9 {
+    background: indigo;
+}
+.box10 {
+    background: dodgerblue;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .bottom-content {
     display: flex;
@@ -138,9 +239,136 @@ footer nav {
     align-items: center;
     padding: 20px 2%;
     font-size: 14px;
-}
+    padding-bottom: 0px; */
+} 
 
 footer nav a {
     color: white;
     text-decoration: none;
+    margin-bottom: 20px;
+
 }
+
+_______________________________________________________
+
+
+/*  Styling for the About page starts here */
+
+
+/* nav a{
+    margin-right: 55px;
+    margin-bottom: 100px;
+    text-align: left;
+    text-decoration: none; 
+    color:black;
+}
+
+
+nav {
+    padding-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+   
+
+}
+
+.top-section2 {
+    padding-top: 30px;
+   display: flex;
+   border: 1px solid red;
+   margin-bottom: 50px;
+   
+
+}
+
+.top-section2 div {
+   margin-bottom: 40px;
+   text-decoration: none;
+
+} */
+
+
+
+/* Header styling above */
+
+
+/* 
+.top-section2 .logo {
+
+   margin-right: 100px;
+   margin-top:50px;
+
+} */
+
+.first-pic{
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.about {
+    padding-left: 20px;
+    margin-bottom: 20px;
+}
+
+hr {
+    border-top: 1px dashed black;
+    margin-bottom: 20px;
+  }
+/* styling for the middle part */
+  .middle-part {
+      display:flex;
+      margin-top: 30px;
+      margin-bottom: 30px;
+      width: 100%;
+  }
+
+  .middle-part h2 {
+      margin-top: 5px;
+  }
+
+.middle-pic {
+    margin: 0 auto;
+}
+
+
+  .button {
+	background-color: white;
+	color: black;
+    padding: 8px 20px 8px;
+    border: 1px solid black;
+	margin-bottom: 20px;
+	margin-top: 10px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	border-radius: 5px;
+  }
+/* styling for the bottom part */
+
+.bottom-part  {
+    display:flex;
+      margin-top: 30px;
+      margin-bottom: 30px;
+      width:100%; 
+}
+
+.bottom-part h2 {
+    margin-top: 5px;
+}
+
+.places .collab {
+    border: 1px solid yellow;
+}
+
+hr {
+    border-top: 1px dashed black;
+    margin-bottom: 30px;
+}
+.together { 
+    margin-bottom: 40px;
+    margin-left: 10px;
+
+}
+
